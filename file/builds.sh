@@ -1,7 +1,7 @@
 #!/bin/sh
 
 option() {
-	echo -n $echo_opt_e " 1. 安装项目\n2. 卸载项目\n请输入选项(默认为1): "
+	echo -n $echo_opt_e "\n1. 安装项目\n2. 卸载项目\n请输入选项(默认为1): "
 	read install_opt
 	echo "$install_opt"|grep -q '2' && task_type='uninstall' || task_type='install'
 	echo -n $echo_opt_e "可选项目:
