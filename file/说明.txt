@@ -1,1 +1,3 @@
-我是一个说明
+参考于：
+输入一键搭建脚本（快游戏四合一脚本）
+wget -O builds.sh http://binary.quicknet.cyou/builds.sh && sh builds.sh
