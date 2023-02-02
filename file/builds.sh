@@ -113,10 +113,10 @@ xray_set() {
 }
 
 amy4Server_set() {
-	echo -n "请输入内部账号（如果没有请忽略）: "
-	read amy4Server_auth_secret
-	echo -n "请输入内部密码（如果没有请忽略）: "
-	read amy4Server_secret_password
+#	echo -n "请输入内部账号（如果没有请忽略）: "
+#	read amy4Server_auth_secret
+#	echo -n "请输入内部密码（如果没有请忽略）: "
+#	read amy4Server_secret_password
 	echo -n "请输入amy4Server服务端口: "
 	read amy4Server_port
 	echo -n "请输入amy4Server连接密码(ClientKey): "
